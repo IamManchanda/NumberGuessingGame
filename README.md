@@ -1,4 +1,4 @@
-# Number Guessing Game
+# Number Guessing Game Mobile App
 
 Tech Stack: JavaScript, React, React Native, Expo etc.
 
