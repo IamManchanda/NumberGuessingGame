@@ -26,7 +26,7 @@ function GameScreen({ userNumber, onGameOver }) {
   const initialGuess = generateRandomBetween(1, 100, userNumber);
   const [currentGuess, setCurrentGuess] = useState(initialGuess);
   const [guessRounds, setGuessRounds] = useState([initialGuess]);
-  const { width, height } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   useEffect(() => {
     if (currentGuess === userNumber) {
